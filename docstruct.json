@@ -6,7 +6,7 @@
   "properties": {
       "Document Name": "Document Name",
       "Name": "Name As Per Document",
-      "DOB": "Date Of Bith as Per Document",
+      "DOB": "Date Of Birth as Per Document",
       "Aadhar Number": "Aadhar number if Given or Just NULL",
       "Father name": "Fathers Name if Given or Just NULL",
       "Cast": "Cast if Given or Just NULL",
