@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "title": "Documents",
+  "description": "A simple Document format",
+  "type": "object",
+  "properties": {
+      "Document Name": "Document Name",
+      "Name": "Name As Per Document",
+      "DOB": "Date Of Birth as Per Document",
+      "Aadhar Number": "Aadhar number if Given or Just NULL",
+      "Father name": "Fathers Name if Given or Just NULL",
+      "Cast": "Cast if Given or Just NULL",
+    "10_marks": {
+      "Roll no": "Roll Number if Given or Just NULL",
+      "Marks": "Here Write Marks per subject in json for like this, Subject: Marks, if Given or Just NULL",
+
+      "Status": "Pass Or Fail if Given or Just NULL"
+    },
+    "12_marks": {
+      "Roll no": "Roll Number if Given or Just NULL",
+      "Marks": "Here Write Marks per subject in json for like this, Subject: Marks, if Given or Just NULL",
+
+      "Status": "Pass Or Fail if Given or Just NULL"
+    },
+    "Gate": {
+      "registration No.": "registration No. if Given or Just NULL",
+      "Examination Paper": "Examination Paper if Given or Just NULL",
+      "gate score": "gate score if Given or Just NULL",
+      "marks out of 100": "marks out of 100 if Given or Just NULL",
+      "All India Rank": "All India Rank if Given or Just NULL"
+    }
+  }
+}
